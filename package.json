@@ -1,0 +1,41 @@
+{
+  "name": "kdog1425",
+  "version": "1.0.0",
+  "description": "Outbrain",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.1",
+    "browserify": "^13.0.1",
+    "express": "^4.13.4",
+    "guid": "0.0.12",
+    "gulp": "^3.9.1",
+    "jquery": "^2.2.3",
+    "lodash-node": "^3.10.2",
+    "morgan": "~1.5.0",
+    "object-assign": "^4.1.0",
+    "passport": "^0.3.0",
+    "passport-jwt": "^1.2.1",
+    "react": "^15.0.2",
+    "react-center": "^1.1.1",
+    "react-dom": "^15.0.2",
+    "reactify": "^1.1.1",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {}
+}
