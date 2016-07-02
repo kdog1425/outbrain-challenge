@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(morgan('dev'));
 
 // set the right port
-var DEBUG = true;
+var DEBUG = false;
 var port = process.env.PORT || 12810;
 if (DEBUG){
 	port = 7777;
