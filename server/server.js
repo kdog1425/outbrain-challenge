@@ -15,7 +15,11 @@ app.use(bodyParser.json());
 app.use(morgan('dev'));
 
 // set the right port
-port = 7777;
+var DEBUG = false;
+var port = process.env.PORT || 12810;
+if (DEBUG){
+	port = 7777;
+}
 app.listen(port, function () {
     console.log("Started listening on port", port);
 });
