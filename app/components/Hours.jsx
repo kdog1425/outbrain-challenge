@@ -16,14 +16,15 @@ var Hours = React.createClass({
         	var hours = Math.floor(listValue / 60);
           var minutes = listValue % 60;
         	var minutesFormatted = minutes == 0 ? '00' : minutes;
-          var showtime; 
+          var showtime;
+          var key = hours + ":" + minutesFormatted;
         	if (minutes == 0){
-            showTime = <div className="time">
+            showTime = <div key={key} className="time">
                         <div className="big">{hours}:{minutesFormatted}</div>
                          <div className="amPm">{amPm}</div>
                          </div>
           } else {
-            showTime = <div className="time">
+            showTime = <div key={key} className="time">
                           <div className="small">{hours}:{minutesFormatted}</div>
                         </div>
           }
